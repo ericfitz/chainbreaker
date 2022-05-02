@@ -1,5 +1,7 @@
-Chainbreaker2
+Chainbreaker2 - Python 3.0 port
 ============
+
+Monterey has removed Python 2.x support; this branch has been modified to run under Python 3.x (required).
 
 Chainbreaker can be used to extract the following types of information from an OSX keychain in a forensically sound manner: 
 
@@ -20,7 +22,8 @@ also provide plaintext passwords.
 Without one of these methods of unlocking the Keychain, Chainbreaker will display all other available information.
 
 ## Supported OS's
-Snow Leopard, Lion, Mountain Lion, Mavericks, Yosemite, El Capitan, (High) Sierra, Mojave, Catalina
+Known: Monterey
+Maybe: Snow Leopard, Lion, Mountain Lion, Mavericks, Yosemite, El Capitan, Sierra, High Sierra, Mojave, Catalina, Big Sur
 
 ## Target Keychain file
 Any valid .keychain or .keychain-db can be supplied. Common Keychain locations include: 
